@@ -697,7 +697,18 @@ http PATCH http://localhost:8086/captionServices/1 captionInfo="captiontest22222
 
 
 
+### Cloud 환경
 
+#### 동영상 업로드
+http video:8080/videoServices videoId=6 clientId=1 channelId=1 viewCount=0
+
+
+#### 자막 생성
+http caption:8080/captionServices videoId=6 captionInfo="captiontest"
+
+
+#### 자막 수정
+http PATCH caption:8080/captionServices/2 captionInfo="captiontest22222"
 
 
 
