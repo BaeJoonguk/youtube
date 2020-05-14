@@ -682,6 +682,28 @@ http video:8080/videoServices videoId=10 clientId=1 channelId=1 viewCount=0
 ## 시연 시나리오
 
 ```
+### 로컬 환경
+
+#### 동영상 업로드
+http http://localhost:8083/videoServices videoId=1 clientId=1 channelId=1 viewCount=0
+
+
+#### 자막 생성
+http http://localhost:8086/captionServices videoId=1 captionInfo="captiontest"
+
+
+#### 자막 수정
+http PATCH http://localhost:8086/captionServices/1 captionInfo="captiontest22222"
+
+
+
+
+
+
+
+
+
+
 ### 고객 생성
 http client:8080/clientSystems clientId=1 totalView=0
 
