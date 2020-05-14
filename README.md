@@ -663,9 +663,10 @@ http video:8080/videoServices videoId=10 clientId=1 channelId=1 viewCount=0
 ![image](https://user-images.githubusercontent.com/63624229/81772614-47d7b600-9521-11ea-954c-84dd60ba640c.png)
 
 
-## 추천팀의 추가
-    - KPI: 기존 고객의 충성도 향상과 신규 고객의 회원가입 수 증대
-    - 구현 계획 마이크로 서비스: 기존 search 마이크로 서비스를 인수하여, 고객의 취향에 맞는 동영상 추천 서비스 등을 제공할 예정
+
+## 자막팀의 추가
+    - KPI: 기존 고객의 충성도 향상과 자막 설정된 동영상 수 증대
+    - 구현 계획 마이크로 서비스: 기존 video 마이크로 서비스에 자막 설정할 수 있는 서비스 등을 제공할 예정
 
 ## 이벤트 스토밍
 
