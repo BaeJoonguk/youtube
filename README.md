@@ -672,7 +672,7 @@ http video:8080/videoServices videoId=10 clientId=1 channelId=1 viewCount=0
 
  ![image](https://user-images.githubusercontent.com/63624229/81773297-f92b1b80-9522-11ea-86d5-8ad20b723904.png)
 
-
+![msaezcaption](https://user-images.githubusercontent.com/2732669/81895126-7cfd0a80-95ec-11ea-9dee-de8b6927ba75.PNG)
 
 ## 헥사고날 아키텍처 변화
 
